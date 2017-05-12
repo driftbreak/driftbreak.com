@@ -9,23 +9,32 @@
     src: url('fonts/Lato/Lato-Regular.woff');
 }
 
-/* Layout header - Large Phone */
-@media all and (min-width: 420px) {
-    .site-header {
-        font-size: 2em;
-    }
+/* Main Header - Phone */
+@media all and (max-width: 420px) {
+	.site-header {
+		font-size: 1em;
+		background: no-repeat center url("images/header/wall-phone.jpg") black;
+	}
 }
 
-/* Layout header - Tablet/Desktop */
-@media all and (min-width: 640px) {
-    .site-header {
-        font-size: 3em;
-    }
+/* Main Header - Tablet */
+@media all and (min-width: 420px) {
+	.site-header {
+		font-size: 2em;
+		background: no-repeat center url("images/header/wall-tablet.jpg") black;
+	}
+}
+
+/* Main Header - Desktop */
+@media all and (min-width: 840px) {
+	.site-header {
+		font-size: 3em;
+		background: no-repeat center url("images/header/wall-desktop.jpg") black;
+	}
 }
 
 /* Layout & style header */
 .site-header {
-	background: no-repeat center url("images/header/ground.jpg") black;
 	color: white;
 	font-family: Vollkorn, Georgia, serif;
 	padding-bottom: .6em;
