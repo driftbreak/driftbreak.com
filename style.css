@@ -1,0 +1,96 @@
+/* Declare fonts */
+@font-face {
+    font-family: 'Vollkorn'; 
+    src: url('fonts/Vollkorn/Vollkorn-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Lato'; 
+    src: url('fonts/Lato/Lato-Regular.woff');
+}
+
+/* Layout header - Large Phone */
+@media all and (min-width: 420px) {
+    .site-header {
+        font-size: 2em;
+    }
+}
+
+/* Layout header - Tablet/Desktop */
+@media all and (min-width: 640px) {
+    .site-header {
+        font-size: 3em;
+    }
+}
+
+/* Layout & style header */
+.site-header {
+	background: no-repeat center url("images/header/ground.jpg") black;
+	color: white;
+	font-family: Vollkorn, Georgia, serif;
+	padding-bottom: .6em;
+	padding-top: .6em;
+	text-align: center;
+	text-shadow: 2px 2px rgba(128, 128, 128, 0.3);
+}
+
+/* Remove edge of page margin */
+body {
+	background-color: #faf9f4;
+	margin: 0px;
+}
+
+/* Layout & style body */
+.content {
+	font-family: Lato, Arial, sans-serif;
+	margin: auto;
+	max-width: 680px;
+	padding: 10px;
+}
+
+.post-header h2 {
+	font-size: 26px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Post heading text effect */
+.post-header h2 {
+	border-right: 1px solid #e2e7ea;
+	border-left: 1px solid #e2e7ea;
+}
+
+/* : for IE 8 */
+.post-header h2:before,
+.post-header h2:after {
+	margin: 12px;
+    background-color: #d3d3d3;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.post-header h2:before {
+    margin-left: -50%;
+}
+
+.post-header h2:after {
+    margin-right: -50%;
+}
+
+/* Layout & style footer */
+.footer-icon {
+	color: #d3d3d3;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+footer {
+	margin-top: 3em;
+}
+footer p {
+	margin-top: 2em;
+}
