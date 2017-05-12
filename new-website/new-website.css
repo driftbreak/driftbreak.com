@@ -1,0 +1,23 @@
+/* Main Header - Phone */
+@media all and (max-width: 420px) {
+	.site-header {
+		font-size: 1em;
+		background: no-repeat center url("../images/header/sky-phone.jpg") black;
+	}
+}
+
+/* Main Header - Tablet */
+@media all and (min-width: 420px) {
+	.site-header {
+		font-size: 2em;
+		background: no-repeat center url("../images/header/sky-tablet.jpg") black;
+	}
+}
+
+/* Main Header - Desktop */
+@media all and (min-width: 840px) {
+	.site-header {
+		font-size: 3em;
+		background: no-repeat center url("../images/header/sky-desktop.jpg") black;
+	}
+}
