@@ -58,6 +58,27 @@ img {
 	padding-right: 12px;
 }
 
+/*Scale based on device size*/
+@media all and (max-width: 420px) {
+	.post-header-img {
+		width: 100%;
+	}
+	
+	.responsive-img {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 420px) {
+	.post-header-img {
+		width: 100%;
+	}
+	
+	.responsive-img {
+		width: 100%;
+	}
+}
+
 /* Remove edge of page margin */
 body {
 	background-color: #faf9f4;
