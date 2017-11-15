@@ -99,28 +99,51 @@ body {
 	margin-bottom: 24px;
 }
 
+.content a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #00aacc;
+}
+
+.content a:hover {
+	color: #00aacc;
+}
+
+.content .img-link {
+	border-bottom: none;
+}
+
 /* Post heading text effect */
 .post-header h2 {
 	font-size: 1.6em;
 	font-weight: bold;
 	overflow: hidden;
 	text-align: center;
-	
-	border-right: 1px solid #e2e7ea;
-	border-left: 1px solid #e2e7ea;
-	
 	margin-bottom: 0px;
 }
 
 .post-header h2 a {
 	color: black;
 	text-decoration: none;
+	padding: 10px;
 }
 
 .post-sub-header {
 	font-size: 0.75em;
 	text-align: center;
 	margin: auto;
+}
+
+.post-header-lineimg-l {
+	float: left;
+	margin-top: 10px;
+	margin-right: -10px;
+}
+
+.post-header-lineimg-r {
+	float: right;
+	margin-top: 10px;
+	margin-left: -10px;
 }
 
 /* : for IE 8 */
@@ -132,7 +155,7 @@ body {
     display: inline-block;
     height: 1px;
     vertical-align: middle;
-    width: 50%;
+    width: 40%;
 }
 
 .post-header h2:before {
