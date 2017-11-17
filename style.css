@@ -13,7 +13,7 @@
 @media all and (max-width: 420px) {
 	.site-header {
 		font-size: 1.5em;
-		background: no-repeat center url("images/header/wall-phone.jpg") black;
+		background: no-repeat center url("images/header/wall-phone.jpg") #dbdbdb;
 	}
 }
 
@@ -21,7 +21,7 @@
 @media all and (min-width: 420px) {
 	.site-header {
 		font-size: 2em;
-		background: no-repeat center url("images/header/wall-tablet.jpg") black;
+		background: no-repeat center url("images/header/wall-tablet.jpg") #dbdbdb;
 	}
 }
 
@@ -29,7 +29,7 @@
 @media all and (min-width: 840px) {
 	.site-header {
 		font-size: 3em;
-		background: no-repeat center url("images/header/wall-desktop.jpg") black;
+		background: no-repeat center url("images/header/wall-desktop.jpg") #dbdbdb;
 	}
 }
 
